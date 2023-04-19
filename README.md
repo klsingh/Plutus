@@ -57,3 +57,14 @@ The Tree Planting application uses native tokens to accept donations. Native tok
 The Tree Planting application defines a TreeCoin token that is used to represent the tokens donated to the Tree Planting contract. The TreeCoin token is defined using the AssetClass type, which includes the CurrencySymbol and TokenName for the token.
 
 The createTree and donateToTree functions use the AssetClass.assetClass function to create an AssetClass value for the TreeCoin token, and the Ada.adaValueOf function to create a Value for the amount of tokens to donate.
+
+## Conclusion
+The Tree Planting application is a smart contract built on the Plutus platform that allows users to donate to and track trees. The application includes both on-chain and off-chain code, as well as the use of native tokens.
+
+The on-chain code includes the validator script that defines the logic for the Tree Planting contract. The validator script specifies the rules for creating and donating to trees, including ensuring that each tree has a unique ID and that donations are tracked for each tree separately.
+
+The off-chain code includes the client schema and contract code that allow users to interact with the Tree Planting contract. The client schema includes two endpoints for creating new trees and donating to existing trees. The contract code includes the createTree and donateToTree functions that implement the logic for the corresponding endpoints.
+
+The Tree Planting application uses native tokens to accept donations. The TreeCoin token is defined using the AssetClass type, and the createTree and donateToTree functions use the AssetClass.assetClass function to create an AssetClass value for the token.
+
+Overall, the Tree Planting application is an example of how Plutus can be used to build smart contracts that are both secure and flexible, and that can be used to represent a wide range of assets and applications on the Cardano blockchain.
