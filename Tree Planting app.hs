@@ -20,6 +20,9 @@ import GHC.Generics (Generic)
 import Data.Aeson (FromJSON, ToJSON)
 import Data.Default.Class (Default (..))
 import qualified Data.Text as T
+import Data.Semigroup (Semigroup(..))
+import Data.Aeson (FromJSON, ToJSON)
+import Language.PlutusTx.Builtins (Builtins(..))
 
 -- | The TreePlanting datum is used to track information about a tree, including its ID, donor, and amount donated.
 data TreePlantingDatum = TreePlantingDatum
