@@ -25,7 +25,7 @@ The validator script includes a validate function that defines the rules for val
 
 The `validate` function uses pattern matching to determine which action the user wants to perform. If the user wants to create a new tree, the function checks that the `TreePlantingRedeemer` is of type Create and that the `TreePlantingDatum` is empty. If the user wants to donate to an existing tree, the function checks that the `TreePlantingRedeemer` is of type Donate and that the `TreePlantingDatum` is not empty.
 
-If the transaction is valid, the validate function returns True. Otherwise, it returns False.
+If the transaction is valid, the validate function returns `True`. Otherwise, it returns `False`.
 
 ## On-Chain Code
 
