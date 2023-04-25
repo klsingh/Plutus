@@ -1,4 +1,4 @@
--- | The TreePlanting module contains the smart contract code for the Tree Planting application.
+-- | The TreePlanting module contains the smart contract code for the Tree Planting application (Demo Project).
 module TreePlanting where
 
 import PlutusTx.Prelude hiding (Semigroup(..), unless)
