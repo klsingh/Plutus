@@ -5,11 +5,11 @@ The Tree Planting application is a smart contract built on the Plutus platform t
 
 ## Overview
 
-The Tree Planting application consists of two main components: the on-chain code and the off-chain code. The on-chain code is responsible for managing the state of the contract on the blockchain, while the off-chain code handles client interactions with the contract.
+The Tree Planting application consists of two main components: the `on-chain` code and the `off-chain` code. The `on-chain` code is responsible for managing the state of the contract on the blockchain, while the `off-chain` code handles client interactions with the contract.
 
-The on-chain code includes the validator script, which defines the rules for validating transactions that interact with the contract. The validator script is implemented using the Plutus Scripting language, a variant of Haskell that is designed for writing smart contracts on the Cardano blockchain.
+The `on-chain` code includes the `validator script`, which defines the rules for validating transactions that interact with the contract. The `validator script` is implemented using the `Plutus Scripting` language, a variant of `Haskell` that is designed for writing smart contracts on the `Cardano blockchain`.
 
-The off-chain code includes the client schema, which defines the endpoints that clients can use to interact with the contract, and the contract code, which implements the logic for the endpoints. The client schema and contract code are implemented using the Plutus DSL, a domain-specific language for writing smart contracts on the Plutus platform.
+The `off-chain` code includes the client schema, which defines the endpoints that clients can use to interact with the contract, and the contract code, which implements the logic for the endpoints. The client schema and contract code are implemented using the Plutus DSL, a domain-specific language for writing smart contracts on the Plutus platform.
 
 ## Validator Script
 
